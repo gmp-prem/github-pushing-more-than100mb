@@ -1,4 +1,4 @@
-# Pushing files with size more than 100MB on GitHub remote site
+# Pushing files with size more than 100MB on GitHub remote side
 This repository is the tutorial on how to push files more than 100mb on GitHub using the tool Git LFS and GitHub desktop on Linux Ubuntu
 
 This tutorial was provided to work on Linux Ubuntu and recommended to work with GitHub desktop which can be installed via
