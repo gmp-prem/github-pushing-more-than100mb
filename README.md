@@ -33,7 +33,7 @@ Git LFS will provide the ability to push files with more than 100mb on github, t
     ```
     sudo apt-get update && sudo apt-get install curl -y
     ```
-    1.2 download the Github desktop
+    1.2 download the Github LFS
     ```
     curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
     ```
