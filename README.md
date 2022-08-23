@@ -1,4 +1,4 @@
-# Pushing files with size more than 100MB on GitHub remote side
+# Pushing files with size more than 100MB to GitHub
 This repository is the tutorial on how to push files more than 100mb on GitHub using the tool Git LFS and GitHub desktop on Linux Ubuntu
 
 This tutorial was provided to work on Linux Ubuntu and recommended to work with GitHub desktop which can be installed via
@@ -12,20 +12,7 @@ Git LFS will provide the ability to push files with more than 100mb on github, t
     ```
     sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
     ```
-    0.2 extract file
-    ```
-    tar -xf git-lfs-linux-amd64-v3.2.0.tar.gz 
-    ```
-    0.3 cd to your extracted files
-
-    0.4 make the install bash script executable
-    ```
-    chmod 755 install.sh
-    ```
-    0.5 start installing from bash script
-    ```
-    sudo ./install.sh
-    ```
+    0.2 after download, open and click install
 
 1. Install the Git LFS
 
@@ -37,6 +24,11 @@ Git LFS will provide the ability to push files with more than 100mb on github, t
     ```
     curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
     ```
+    1.3 after, get package from the repository, install with the Git LFS with this command
+    ```
+    sudo apt-get install git-lfs
+    ```
+    
 
 1. Create the remote and local repo and sync between two first. This step, the external Git GUI can be used to provide
 easy access between remote side and local side
